@@ -3,10 +3,19 @@ A multi-threaded Python BitTorrent client built from scratch. Features Bencoding
 
 ## Idea
 
+
 ## Core Principles
+### What? 
+### When?
+### How?
+
 
 ## Implementation
 
+
 ## Novelty
+### What makes it different from your standard UTorrent Client?
 
 ## Future Work
+### Swarm Optimisation
+### Seeding Capability
