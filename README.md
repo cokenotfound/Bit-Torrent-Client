@@ -22,7 +22,7 @@ Reference - https://markuseliasson.se/article/bittorrent-in-python/
 
 
 ## Novelty
-### What makes it different from your standard UTorrent Client?
+### What makes it different from a standard UTorrent Client?
 
 ## Future Work
 ### Swarm Optimisation
