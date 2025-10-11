@@ -34,4 +34,4 @@ How? (Implementation)
 Swarm Optimization: This involves implementing the Rarest-First piece selection algorithm. This upgrade focuses the client's intelligence on prioritizing the least available data in the swarm, which enhances overall download resilience and contributes to the health of the network.
 
 ### Seeding Capability
-This integrates the crucial Tit-for-Tat incentive system. It requires the client to process incoming REQUEST messages from other peers and upload verified file blocks, transforming the downloader into a full, contributing member of the network after the download is complete.
+This integrates the crucial Tit-for-Tat incentive system. It requires the client to process incoming REQUEST messages from other peers and upload verified file blocks, while prioritizing download slots for those peers who are actively uploading to the client. This transforms the downloader into a full, contributing member of the network after the download is complete.
