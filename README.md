@@ -14,9 +14,17 @@ Reference - https://markuseliasson.se/article/bittorrent-in-python/
 
 ## Core Principles
 ### What? 
+The core objective is Trustless Integrity and High Availability. The system must ensure that data received from anonymous, unreliable sources is both uncorrupted and remains available throughout the download.
+When? (Mechanism)
 ### When?
+Integrity is enforced upon piece completion via cryptographic hashing. Availability is optimized during peer communication via concurrency and selection algorithms.
+How? (Implementation)
 ### How?
+    Trust Enforcement: Every file piece is checked against its expected SHA-1 hash from the torrent file before being written to disk.
 
+    Concurrency: Utilized Python's threading to manage up to 30 simultaneous socket connections to maximize peer search efficiency against volatile networks.
+
+    Incentives (Game Theory): The architecture is designed to support the Tit-for-Tat incentive model, which encourages peers to upload to the client in return for download priority.
 
 ## Implementation
 
