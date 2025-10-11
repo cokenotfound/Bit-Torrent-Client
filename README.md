@@ -22,7 +22,6 @@ How? (Implementation)
 ### How?
 1. **Trust Enforcement:** Every file piece is checked against its expected SHA-1 hash from the torrent file before being written to disk.
 2. **Concurrency:** Utilized Python's threading to manage up to 30 simultaneous socket connections to maximize peer search efficiency against volatile networks.
-3. **Incentives:** The architecture is designed to support the Tit-for-Tat incentive model, which encourages peers to upload to the client in return for download priority.
 
 ## Implementation
 
